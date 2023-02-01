@@ -1,0 +1,2 @@
+"0","headinj <- read.table(""https://dahl.byu.edu/230/2022a/data/headinjury.csv"",sep="","",header=TRUE)"
+"0","head(headinj)"

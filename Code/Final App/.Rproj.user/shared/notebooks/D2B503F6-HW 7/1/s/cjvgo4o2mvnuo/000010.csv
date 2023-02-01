@@ -1,0 +1,3 @@
+"0",""
+"0","# Normality assumption looks borderline but, coupled with the Central Limit Theorem, we should be okay."
+"0","hist(residuals(fm))"

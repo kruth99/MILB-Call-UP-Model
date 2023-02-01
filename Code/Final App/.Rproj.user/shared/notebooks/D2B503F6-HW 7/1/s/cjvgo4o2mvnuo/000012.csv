@@ -1,0 +1,4 @@
+"0",""
+"0","# Constant standard deviation assumption looks okay."
+"0","# Notice that the ratio of standard deviations is aways between 0.5 and 2."
+"0","aggregate(time ~ body*wing, data=d, FUN=sd)"

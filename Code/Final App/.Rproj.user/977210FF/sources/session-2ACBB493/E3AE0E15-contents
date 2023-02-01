@@ -1,0 +1,37 @@
+---
+title: "HW3#2-6"
+author: "Kendall Ruth"
+date: '2022-09-18'
+output: html_document
+---
+```{r}
+#2
+
+f <- function(x) 3*x+7
+curve(f(x), xlim=c(-1,1))
+```
+```{r}
+#3
+
+f <- function(x) 1 - exp(-0.2 * x)
+curve(f(x), xlim=c(0,20))
+```
+```{r}
+#4
+
+f <- function(x) (3/4) * (1 - x**2)
+curve(f(x), xlim=c(-1,1))
+```
+```{r}
+#5
+
+f <- function(x) (exp (2 * x)) / (1 + exp( 2* x))
+curve(f(x), xlim=c(-3,3))
+```
+```{r}
+#6
+
+f <- function(x) sin (12 * (x + 0.2)) / (x + 0.2)
+curve(f(x), xlim=c(0,1))
+```
+

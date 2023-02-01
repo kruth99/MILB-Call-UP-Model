@@ -1,0 +1,5 @@
+"0",""
+"0","#########"
+"0","### Check assumptions"
+"0","#########"
+"0","boxplot(time ~ body*wing, data=d)  # Note the ordering of the x axis."
